@@ -11,7 +11,6 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(../../../public/game/covers/tlou2.jpg);
     background-size: cover;
     filter: blur(20px);
     z-index: 0;
@@ -23,7 +22,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.7);
+    background: linear-gradient(to bottom, rgba(9, 9, 11, 0.7), #09090b);
     z-index: 1;
 }
 
@@ -45,4 +44,20 @@
 
 .platform-badge {
     @apply text-zinc-300 font-medium text-xs border px-1 border-zinc-400 uppercase
+}
+
+.trophies-container {
+    @apply px-16 pb-12
+}
+
+.trophies-container h1 {
+    @apply text-xl font-semibold
+}
+
+.trophy-list {
+    @apply flex flex-col gap-4 mt-8
+}
+
+.trophy-list li {
+    @apply flex flex-row gap-2 justify-between items-center
 }

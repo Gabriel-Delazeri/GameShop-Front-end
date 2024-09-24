@@ -10,6 +10,7 @@ export type Game = {
 
 export type Trophy = {
     title: string;
+    image: string;
     description: string;
     type: string;
     percentage: number;

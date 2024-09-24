@@ -11,6 +11,7 @@ export const games: Game[] = [
         trophies: [
             {
                 "title": "Every Last One of Them",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Collect all trophies",
                 "type": "Platinum",
                 "percentage": 26.15,
@@ -18,6 +19,7 @@ export const games: Game[] = [
             },
             {
                 "title": "What I Had to Do",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Complete the story",
                 "type": "Gold",
                 "percentage": 75.27,
@@ -25,6 +27,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Survival Expert",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Learn all player upgrades",
                 "type": "Gold",
                 "percentage": 29.01,
@@ -32,6 +35,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Arms Master",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Fully upgrade all weapons",
                 "type": "Gold",
                 "percentage": 29.21,
@@ -39,6 +43,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Archivist",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Find all artifacts and journal entries",
                 "type": "Gold",
                 "percentage": 27.36,
@@ -46,6 +51,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Master Set",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Find all trading cards",
                 "type": "Gold",
                 "percentage": 27.62,
@@ -53,6 +59,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Numismatist",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Find all coins",
                 "type": "Gold",
                 "percentage": 27.79,
@@ -60,6 +67,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Prepared For the Worst",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Find all workbenches",
                 "type": "Gold",
                 "percentage": 36.20,
@@ -67,6 +75,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Mechanist",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Fully upgrade a weapon",
                 "type": "Silver",
                 "percentage": 78.46,
@@ -74,6 +83,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Specialist",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Learn all player upgrades in one branch",
                 "type": "Silver",
                 "percentage": 80.80,
@@ -81,6 +91,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Safecracker",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Unlock every safe",
                 "type": "Silver",
                 "percentage": 37.54,
@@ -88,6 +99,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Sightseer",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Visit every location in downtown Seattle",
                 "type": "Silver",
                 "percentage": 53.12,
@@ -95,6 +107,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Journeyman",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Find all training manuals",
                 "type": "Silver",
                 "percentage": 74.26,
@@ -102,6 +115,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Survival Training",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Learn 25 player upgrades",
                 "type": "Silver",
                 "percentage": 70.59,
@@ -109,6 +123,7 @@ export const games: Game[] = [
             },
             {
                 "title": "High Caliber",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Find all weapons",
                 "type": "Silver",
                 "percentage": 76.14,
@@ -116,6 +131,7 @@ export const games: Game[] = [
             },
             {
                 "title": "In the Field",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Find 12 workbenches",
                 "type": "Silver",
                 "percentage": 79.89,
@@ -123,6 +139,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Tools of the Trade",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Craft every item",
                 "type": "Bronze",
                 "percentage": 60.45,
@@ -130,6 +147,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Tinkerer",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Upgrade a weapon",
                 "type": "Bronze",
                 "percentage": 94.16,
@@ -137,6 +155,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Apprentice",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Learn a player upgrade",
                 "type": "Bronze",
                 "percentage": 93.00,
@@ -144,6 +163,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Starter Set",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Find 5 trading cards",
                 "type": "Bronze",
                 "percentage": 89.99,
@@ -151,6 +171,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Mint Condition",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Find 5 coins",
                 "type": "Bronze",
                 "percentage": 75.80,
@@ -158,6 +179,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Looks Good On You",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Put a hat on your companion",
                 "type": "Bronze",
                 "percentage": 48.05,
@@ -165,6 +187,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Sharpshooter",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Win the marksmanship competition",
                 "type": "Bronze",
                 "percentage": 63.99,
@@ -172,6 +195,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Put My Name Up",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Earn the high score in the archery game",
                 "type": "Bronze",
                 "percentage": 72.62,
@@ -179,6 +203,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Relic of the Sages",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Find the Strange Artifact",
                 "type": "Bronze",
                 "percentage": 47.35,
@@ -186,6 +211,7 @@ export const games: Game[] = [
             },
             {
                 "title": "So Great and Small",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Find the Engraved Ring",
                 "type": "Bronze",
                 "percentage": 10.10,
@@ -203,6 +229,7 @@ export const games: Game[] = [
         trophies: [
             {
                 "title": "Every Last One of Them",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Collect all trophies",
                 "type": "Platinum",
                 "percentage": 26.15,
@@ -210,6 +237,7 @@ export const games: Game[] = [
             },
             {
                 "title": "What I Had to Do",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Complete the story",
                 "type": "Gold",
                 "percentage": 75.27,
@@ -217,6 +245,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Survival Expert",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Learn all player upgrades",
                 "type": "Gold",
                 "percentage": 29.01,
@@ -224,6 +253,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Arms Master",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Fully upgrade all weapons",
                 "type": "Gold",
                 "percentage": 29.21,
@@ -231,6 +261,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Archivist",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Find all artifacts and journal entries",
                 "type": "Gold",
                 "percentage": 27.36,
@@ -238,6 +269,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Master Set",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Find all trading cards",
                 "type": "Gold",
                 "percentage": 27.62,
@@ -245,6 +277,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Numismatist",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Find all coins",
                 "type": "Gold",
                 "percentage": 27.79,
@@ -252,6 +285,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Prepared For the Worst",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Find all workbenches",
                 "type": "Gold",
                 "percentage": 36.20,
@@ -259,6 +293,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Mechanist",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Fully upgrade a weapon",
                 "type": "Silver",
                 "percentage": 78.46,
@@ -266,6 +301,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Specialist",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Learn all player upgrades in one branch",
                 "type": "Silver",
                 "percentage": 80.80,
@@ -273,6 +309,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Safecracker",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Unlock every safe",
                 "type": "Silver",
                 "percentage": 37.54,
@@ -280,6 +317,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Sightseer",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Visit every location in downtown Seattle",
                 "type": "Silver",
                 "percentage": 53.12,
@@ -287,6 +325,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Journeyman",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Find all training manuals",
                 "type": "Silver",
                 "percentage": 74.26,
@@ -294,6 +333,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Survival Training",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Learn 25 player upgrades",
                 "type": "Silver",
                 "percentage": 70.59,
@@ -301,6 +341,7 @@ export const games: Game[] = [
             },
             {
                 "title": "High Caliber",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Find all weapons",
                 "type": "Silver",
                 "percentage": 76.14,
@@ -308,6 +349,7 @@ export const games: Game[] = [
             },
             {
                 "title": "In the Field",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Find 12 workbenches",
                 "type": "Silver",
                 "percentage": 79.89,
@@ -315,6 +357,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Tools of the Trade",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Craft every item",
                 "type": "Bronze",
                 "percentage": 60.45,
@@ -322,6 +365,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Tinkerer",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Upgrade a weapon",
                 "type": "Bronze",
                 "percentage": 94.16,
@@ -329,6 +373,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Apprentice",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Learn a player upgrade",
                 "type": "Bronze",
                 "percentage": 93.00,
@@ -336,6 +381,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Starter Set",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Find 5 trading cards",
                 "type": "Bronze",
                 "percentage": 89.99,
@@ -343,6 +389,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Mint Condition",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Find 5 coins",
                 "type": "Bronze",
                 "percentage": 75.80,
@@ -350,6 +397,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Looks Good On You",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Put a hat on your companion",
                 "type": "Bronze",
                 "percentage": 48.05,
@@ -357,6 +405,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Sharpshooter",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Win the marksmanship competition",
                 "type": "Bronze",
                 "percentage": 63.99,
@@ -364,6 +413,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Put My Name Up",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Earn the high score in the archery game",
                 "type": "Bronze",
                 "percentage": 72.62,
@@ -371,6 +421,7 @@ export const games: Game[] = [
             },
             {
                 "title": "Relic of the Sages",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Find the Strange Artifact",
                 "type": "Bronze",
                 "percentage": 47.35,
@@ -378,6 +429,7 @@ export const games: Game[] = [
             },
             {
                 "title": "So Great and Small",
+                "image": "/trophy/photo/tlou1.png",
                 "description": "Find the Engraved Ring",
                 "type": "Bronze",
                 "percentage": 10.10,
