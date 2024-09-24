@@ -437,4 +437,22 @@ export const games: Game[] = [
             }
         ]
     },
+    {
+        title: "Elden Ring",
+        publisher: "From Software",
+        platforms: ["ps4", "ps5"],
+        genders: ["Action", "Adventure", "Open world"],
+        slug: "elden-ring",
+        image: {url: `/game/covers/eldenring.jpg`, alt: `Elden Ring Cover`},
+        trophies: []
+    },
+    {
+        title: "Death Stranding 2: On the Beach",
+        publisher: "Kojima Productions",
+        platforms: ["ps4", "ps5"],
+        genders: ["Action", "Adventure", "Open world"],
+        slug: "death-stranding-2",
+        image: {url: `/game/covers/deathstranding.jpg`, alt: `Death Stranding 2 Cover`},
+        trophies: []
+    },
 ];
