@@ -1,0 +1,48 @@
+.main-container {
+    position: relative;
+    overflow: hidden;
+    background-color: black;
+    padding: 40px;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../../../public/game/covers/tlou2.jpg);
+    background-size: cover;
+    filter: blur(20px);
+    z-index: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.game-container {
+    @apply relative p-4 z-20 flex flex-col gap-2
+}
+
+.game-container .title-container {
+    @apply flex flex-col
+}
+
+.game-container .title-container h1 {
+    @apply text-2xl font-bold self-center
+}
+
+.game-container .title-container h2 {
+    @apply text-zinc-300 text-xl self-center
+}
+
+.platform-badge {
+    @apply text-zinc-300 font-medium text-xs border px-1 border-zinc-400 uppercase
+}
