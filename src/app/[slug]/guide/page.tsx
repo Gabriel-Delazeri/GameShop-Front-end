@@ -2,11 +2,9 @@
 import {Game} from "@/types/game";
 import {useEffect, useState} from "react";
 import {findBySlug} from "@/service/gameService";
-import "../styles.css";
 import {Image, ShoppingCart} from "lucide-react";
 import {calculateDiscount, checkGameHasDiscount} from "@/utils/price.util";
 import ScreenshotCarousel from "@/components/screenshotCarousel";
-
 
 interface GamePageProps {
     params: {
@@ -24,7 +22,6 @@ export default function GamePage({params}: GamePageProps) {
     return (
         <div>
             {game && (
-
                 <div className={`main-container`}>
                     <div className="background-image"
                          style={{
