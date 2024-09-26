@@ -190,7 +190,7 @@ body {
 }
 
 .btn-primary {
-  @apply bg-white text-black p-2 rounded-md flex flex-row gap-2
+  @apply bg-white text-black p-2 rounded-md flex flex-row gap-2 md:text-xl font-semibold
 }
 
 .screenshot-container {

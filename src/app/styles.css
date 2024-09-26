@@ -1,0 +1,22 @@
+.incoming-game-container {
+    @apply flex flex-col gap-2 md:relative;
+}
+
+.incoming-game-container img {
+    @apply rounded-tl-xl rounded-br-xl md:rounded-xl h-96 object-cover md:h-128;
+}
+
+.incoming-game-container .info-container {
+    @apply flex flex-row md:flex-col justify-between items-end
+    md:absolute md:bottom-0 md:right-0
+    md:bg-gradient-to-l md:from-black md:to-transparent
+    md:h-full md:w-[40%] md:p-10 md:rounded-xl;
+}
+
+.incoming-game-container .info-container .title {
+    @apply text-xl font-semibold uppercase md:text-4xl text-white;
+}
+
+.incoming-game-container .info-container .subtitle {
+    @apply text-xs font-semibold text-zinc-400 md:text-zinc-300 md:text-xl;
+}
