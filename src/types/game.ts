@@ -4,9 +4,10 @@ export type Game = {
     genders: string[];
     platforms: string[];
     publisher: string;
-    image: GameImage;
+    cover: GameImage;
     currentPrice: number;
     originalPrice: number;
+    screenshots: GameImage[]
 }
 
 export type Trophy = {

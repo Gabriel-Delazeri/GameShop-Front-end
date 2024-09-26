@@ -73,3 +73,15 @@
 .btn-primary {
     @apply bg-white text-black p-2 rounded-md flex flex-row gap-2
 }
+
+.screenshot-container {
+    @apply flex flex-col gap-2 mt-6
+}
+
+.screenshot-container {
+    @apply flex flex-col gap-2 mt-6
+}
+
+.screenshot-container h1 {
+    @apply text-xl font-medium
+}
