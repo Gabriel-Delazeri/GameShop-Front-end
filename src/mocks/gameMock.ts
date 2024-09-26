@@ -54,7 +54,13 @@ export const games: Game[] = [
         cover: {url: `/game/covers/eldenring.jpg`, alt: `Elden Ring Cover`},
         originalPrice: 59.99,
         currentPrice: 49.99,
-        screenshots: [],
+        screenshots: [
+            {url: `/game/screenshots/eldenring/1.jpg`, alt: `Elden Ring Screenshot`},
+            {url: `/game/screenshots/eldenring/2.jpg`, alt: `Elden Ring Screenshot`},
+            {url: `/game/screenshots/eldenring/3.jpg`, alt: `Elden Ring Screenshot`},
+            {url: `/game/screenshots/eldenring/4.jpg`, alt: `Elden Ring Screenshot`},
+            {url: `/game/screenshots/eldenring/5.jpg`, alt: `Elden Ring Screenshot`},
+        ],
         esrbRating: {
             name: `Mature`,
             description: `Blood and Gore, Language, Suggestive Themes, Violence`,

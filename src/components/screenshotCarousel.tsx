@@ -38,7 +38,7 @@ export default function ScreenshotCarousel({game}: ScreenshotCarouselProps) {
             <Carousel>
                 <CarouselContent>
                     {game.screenshots.map((screenshot, index) => (
-                        <CarouselItem className={`basis-11/12`}>
+                        <CarouselItem className={`basis-5/6`}>
                             <img
                                 src={screenshot.url}
                                 alt={screenshot.alt}
