@@ -4,6 +4,7 @@ import {useEffect, useState} from "react";
 import {findBySlug} from "@/service/gameService";
 import "../styles.css";
 import {ShoppingCart} from "lucide-react";
+import {calculateDiscount, checkGameHasDiscount} from "@/utils/price.util";
 
 interface GamePageProps {
     params: {
@@ -42,23 +43,36 @@ export default function GamePage({params}: GamePageProps) {
                             <div className={`platform-badge`} key={key}>{platform}</div>
                         ))}
                     </div>
-                    <div className={`buy-container`}>
-                        <div className={`price-information-container`}>
-                            <div>
-                                <span className={`original-price`}>${game?.originalPrice}</span>
-                                <span className={`current-price`}>${game?.currentPrice}</span>
+                    {game && (
+
+                        <div className={`buy-container`}>
+                            <div className={`price-information-container`}>
+                                <div>
+                                    {checkGameHasDiscount(game) && (
+                                        <span className={`original-price`}>${game?.originalPrice}</span>
+                                    )}
+                                    <span
+                                        className={`current-price ${!checkGameHasDiscount(game) ? `text-3xl` : `text-2xl`}`}
+                                    >
+                                        ${game?.currentPrice}
+                                    </span>
+                                </div>
+                                {checkGameHasDiscount(game) && (
+                                    <div>
+                                        <span
+                                            className={`offer`}>Save ${calculateDiscount(game)}. This offer ends soon.
+                                        </span>
+                                    </div>
+                                )}
                             </div>
-                            <div>
-                                <span className={`offer`}>Save 50%. This offer ends soon.</span>
+                            <div className={`btn-container`}>
+                                <button className={`btn-primary`}>
+                                    <ShoppingCart/>
+                                    +
+                                </button>
                             </div>
                         </div>
-                        <div className={`btn-container`}>
-                            <button className={`btn-primary`}>
-                                <ShoppingCart/>
-                                +
-                            </button>
-                        </div>
-                    </div>
+                    )}
                 </div>
             </div>
         </div>

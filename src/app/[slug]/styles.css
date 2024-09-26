@@ -59,7 +59,7 @@
 }
 
 .price-information-container div .current-price {
-    @apply text-2xl font-bold
+    @apply font-bold
 }
 
 .price-information-container div .offer {
