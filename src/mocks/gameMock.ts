@@ -76,6 +76,16 @@ export const games: Game[] = [
         cover: {url: `/game/covers/deathstranding.jpg`, alt: `Death Stranding 2 Cover`},
         originalPrice: 59.99,
         currentPrice: 59.99,
-        screenshots: []
+        screenshots: [
+            {url: `/game/screenshots/ds2/2.jpg`, alt: `Death Stranding 2 Screenshot`},
+            {url: `/game/screenshots/ds2/3.jpg`, alt: `Death Stranding 2 Screenshot`},
+            {url: `/game/screenshots/ds2/1.jpg`, alt: `Death Stranding 2 Screenshot`},
+            {url: `/game/screenshots/ds2/4.jpg`, alt: `Death Stranding 2 Screenshot`},
+        ],
+        esrbRating: {
+            name: `Mature`,
+            description: `Blood, Intense Violence, Partial Nudity, Strong Language`,
+            image: `/esrb/mature.png`
+        }
     },
 ];
