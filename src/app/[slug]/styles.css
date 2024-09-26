@@ -22,7 +22,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to bottom, rgba(9, 9, 11, 0.7), #09090b);
+    background: linear-gradient(to bottom, rgba(9, 9, 11, 0.4), #09090b);
     z-index: 1;
 }
 
@@ -35,29 +35,41 @@
 }
 
 .game-container .title-container h1 {
-    @apply text-2xl font-bold self-center
+    @apply text-2xl font-bold
 }
 
 .game-container .title-container h2 {
-    @apply text-zinc-300 text-xl self-center
+    @apply text-zinc-300 text-xl
 }
 
 .platform-badge {
     @apply text-zinc-300 font-medium text-xs border px-1 border-zinc-400 uppercase
 }
 
-.trophies-container {
-    @apply px-16 pb-12
+.buy-container {
+    @apply flex flex-row gap-2 mt-4 justify-between items-end
 }
 
-.trophies-container h1 {
-    @apply text-xl font-semibold
+.price-information-container div {
+    @apply flex flex-row items-end gap-2
 }
 
-.trophy-list {
-    @apply flex flex-col gap-4 mt-8
+.price-information-container div .original-price {
+    @apply line-through text-zinc-500
 }
 
-.trophy-list li {
-    @apply flex flex-row gap-2 justify-between items-center
+.price-information-container div .current-price {
+    @apply text-2xl font-bold
+}
+
+.price-information-container div .offer {
+    @apply text-zinc-400 text-sm
+}
+
+.price-information-container .btn-container {
+    @apply flex flex-col justify-center
+}
+
+.btn-primary {
+    @apply bg-white text-black p-2 rounded-md flex flex-row gap-2
 }
