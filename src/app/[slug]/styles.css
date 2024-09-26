@@ -63,7 +63,7 @@
 }
 
 .price-information-container div .offer {
-    @apply text-zinc-400 text-sm
+    @apply text-zinc-400 text-xs
 }
 
 .price-information-container .btn-container {
