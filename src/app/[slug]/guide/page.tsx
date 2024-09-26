@@ -31,7 +31,7 @@ export default function GamePage({params}: GamePageProps) {
                     <div className="overlay"></div>
                     <div className="game-container">
                         <img
-                            className={`w-full`}
+                            className={`w-full rounded-xl`}
                             src={game?.cover.url}
                             alt={game?.title}
                         />

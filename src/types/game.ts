@@ -5,6 +5,7 @@ export type Game = {
     platforms: string[];
     publisher: string;
     cover: GameImage;
+    thumbnail?: GameImage;
     currentPrice: number;
     originalPrice: number;
     screenshots: GameImage[]

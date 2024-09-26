@@ -3,8 +3,7 @@ import {useEffect, useState} from "react";
 import {findAll} from "@/service/gameService";
 import {Game} from "@/types/game";
 import Link from "next/link";
-import {Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious} from "@/components/ui/carousel";
-import {checkGameHasDiscount} from "@/utils/price.util";
+import {BadgeDollarSign} from "lucide-react";
 
 export default function Home() {
     const [games, setGames] = useState<Game[]>([]);
@@ -15,46 +14,59 @@ export default function Home() {
 
     return (
         <div>
-                <div className={`main-container`}>
-                    <div className="background-image"
-                         style={{
-                             backgroundImage: `url("")`,
-                         }}
-                    ></div>
-                    <div className="overlay"></div>
-                    <div className="game-container">
-                        <Carousel>
-                            <CarouselContent>
-                                {games.map((game, index) => (
-                                    <CarouselItem className={`flex flex-row justify-center`}>
-                                        <Link href={`${game.slug}/guide`}
-                                            className={`flex flex-col gap-2`}
-                                        >
-                                            <img
-                                                src={game.cover.url}
-                                                className={`h-96 w-max`}
-                                            />
-                                            <div className={`flex flex-col`}>
-                                                <h1 className={`text-xl font-bold uppercase`}>
-                                                    {game.title}
-                                                </h1>
-                                                <div className={`flex flex-row gap-2 items-end`}>
-                                                    {checkGameHasDiscount(game) && (
-                                                        <span className={`line-through text-zinc-500`}>${game?.originalPrice}</span>
-                                                    )}
-                                                    <div className={`text-lg font-semibold`}>${game.currentPrice}</div>
-                                                </div>
-                                            </div>
-                                        </Link>
-                                    </CarouselItem>
+            <div className={`main-container`}>
+                <div className="background-image"
+                     style={{
+                         backgroundImage: `url("/game/covers/gta6.png")`,
+                     }}
+                ></div>
+                <div className="overlay"></div>
+                <div className="home-container">
+                    <div className={`flex flex-col gap-2`}>
+                        <img
+                            src={"/game/covers/gta6.png"}
+                            className={`rounded-tl-xl rounded-br-xl h-72 object-cover`}
+                        />
+                        <div className={`flex flex-row justify-between items-end`}>
+                            <div className="flex flex-col">
+                                <div className="text-xl font-semibold uppercase">
+                                    Grand Theft Auto VI
+                                </div>
+                                <div className="text-xs font-semibold text-zinc-400">
+                                    Coming 2026
+                                </div>
+                            </div>
+                            <button className={`btn-primary`}>
+                                Pre-Order now
+                            </button>
+                        </div>
+                    </div>
+                    <div className={`flex flex-col gap-2 mt-4`}>
+                        <h1 className={`font-bold text-lg flex flex-row gap-1 items-center`}><BadgeDollarSign/> On Sale</h1>
+                        <div className={`grid grid-cols-2 gap-2`}>
 
-                                ))}
-                            </CarouselContent>
-                            <CarouselPrevious className={`bg-black`}/>
-                            <CarouselNext className={`bg-black`}/>
-                        </Carousel>
+                            {games.map(game => (
+                                <Link
+                                    href={`${game.slug}/guide`}
+                                    className={`flex flex-col gap-2`}
+                                >
+                                    <img
+                                        src={game.thumbnail?.url}
+                                        className={`rounded-tl-xl rounded-br-xl`}
+                                    />
+                                    <div>
+                                        <div className={`font-semibold`}>{game.title}</div>
+                                        <div className={`flex flex-row items-center gap-2`}>
+                                            <div className={`text-xs line-through text-zinc-400`}>${game.originalPrice}</div>
+                                            <div>${game.currentPrice}</div>
+                                        </div>
+                                    </div>
+                                </Link>
+                            ))}
+                        </div>
                     </div>
                 </div>
+            </div>
         </div>
     );
 }

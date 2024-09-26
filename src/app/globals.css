@@ -118,7 +118,6 @@ body {
   position: relative;
   overflow: hidden;
   background-color: black;
-  padding: 40px;
 }
 
 .background-image {
@@ -140,6 +139,10 @@ body {
   bottom: 0;
   background: linear-gradient(to bottom, rgba(9, 9, 11, 0.4), #09090b);
   z-index: 1;
+}
+
+.home-container {
+  @apply relative p-4 z-20 flex flex-col gap-2
 }
 
 .game-container {

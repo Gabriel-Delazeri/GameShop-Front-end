@@ -8,6 +8,7 @@ export const games: Game[] = [
         genders: ["Action", "Adventure", "Survival horror"],
         slug: "the-last-of-us-part-2",
         cover: {url: `/game/covers/tlou2.jpg`, alt: `The Last Of Us Part II Cover`},
+        thumbnail: {url: `/game/thumbnail/tlou2.avif`, alt: `The Last Of Us Part II Cover`},
         originalPrice: 59.99,
         currentPrice: 29.99,
         screenshots: [
@@ -39,6 +40,7 @@ export const games: Game[] = [
         genders: ["Action", "Adventure", "Open world"],
         slug: "red-dead-redemption-2",
         cover: {url: `/game/covers/rdr2.jpg`, alt: `Red Dead Redemption II Cover`},
+        thumbnail: {url: `/game/thumbnail/rdr2.jpg`, alt: `The Last Of Us Part II Cover`},
         originalPrice: 59.99,
         currentPrice: 29.99,
         screenshots: [
@@ -68,6 +70,7 @@ export const games: Game[] = [
         genders: ["Action", "Adventure", "Open world"],
         slug: "elden-ring",
         cover: {url: `/game/covers/eldenring.jpg`, alt: `Elden Ring Cover`},
+        thumbnail: {url: `/game/thumbnail/eldenring.avif`, alt: `The Last Of Us Part II Cover`},
         originalPrice: 59.99,
         currentPrice: 49.99,
         screenshots: [
@@ -90,5 +93,35 @@ export const games: Game[] = [
                 `FromSoftware reshapes the action RPG genre, blending deep lore and challenging combat in a world of unmatched scale and danger.`
             ]
         }
-    }
+    },
+    {
+        title: "Death Stranding 2",
+        publisher: "Kojima Productions",
+        platforms: ["ps4", "ps5"],
+        genders: ["Action", "Adventure", "Open world"],
+        slug: "death-stranding-2",
+        cover: {url: `/game/covers/deathstranding.jpg`, alt: `Death Stranding 2 Cover`},
+        thumbnail: {url: `/game/thumbnail/ds2.avif`, alt: `Death Stranding 2 Thumbnail`},
+        originalPrice: 59.99,
+        currentPrice: 49.99,
+        screenshots: [
+            {url: `/game/screenshots/ds2/2.jpg`, alt: `Death Stranding 2 Screenshot`},
+            {url: `/game/screenshots/ds2/3.jpg`, alt: `Death Stranding 2 Screenshot`},
+            {url: `/game/screenshots/ds2/1.jpg`, alt: `Death Stranding 2 Screenshot`},
+            {url: `/game/screenshots/ds2/4.jpg`, alt: `Death Stranding 2 Screenshot`},
+        ],
+        esrbRating: {
+            name: `Mature`,
+            description: `Blood, Intense Violence, Partial Nudity, Strong Language`,
+            image: `/esrb/mature.png`
+        },
+        synopsis: {
+            title: `Embark on an inspiring mission of human connection beyond the UCA`,
+            paragraphs: [
+                `Sam – with companions by his side – sets out on a new journey to save humanity from extinction.`,
+                `Join them as they traverse a world beset by otherworldly enemies, obstacles and a haunting question: Should we have connected?`,
+                `Step by step, legendary game creator Hideo Kojima changes the world once again.`
+            ]
+        }
+    },
 ];
