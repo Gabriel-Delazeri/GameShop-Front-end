@@ -8,18 +8,16 @@ export type Game = {
     currentPrice: number;
     originalPrice: number;
     screenshots: GameImage[]
-}
-
-export type Trophy = {
-    title: string;
-    image: string;
-    description: string;
-    type: string;
-    percentage: number;
-    rareness: string;
+    esrbRating?: ESRBRating;
 }
 
 export type GameImage = {
     url: string;
     alt: string;
+}
+
+export type ESRBRating = {
+    name: string;
+    image: string;
+    description: string;
 }

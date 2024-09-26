@@ -3,7 +3,7 @@ import {Game} from "@/types/game";
 import {useEffect, useState} from "react";
 import {findBySlug} from "@/service/gameService";
 import "../styles.css";
-import {ShoppingCart} from "lucide-react";
+import {Image, ShoppingCart} from "lucide-react";
 import {calculateDiscount, checkGameHasDiscount} from "@/utils/price.util";
 import {Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious} from "@/components/ui/carousel";
 import ScreenshotCarousel from "@/components/screenshotCarousel";
@@ -75,8 +75,15 @@ export default function GamePage({params}: GamePageProps) {
                                 </button>
                             </div>
                         </div>
+                        <figure className={`esrb-container`}>
+                            <img
+                                src={game.esrbRating?.image}
+                                alt={game.esrbRating?.name}
+                            />
+                            <figcaption>{game.esrbRating?.description}</figcaption>
+                        </figure>
                         <div className={`screenshot-container`}>
-                            <h1>Screenshots</h1>
+                            <h1><Image/>Screenshots</h1>
                             <ScreenshotCarousel game={game}/>
                         </div>
                     </div>

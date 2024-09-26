@@ -83,5 +83,17 @@
 }
 
 .screenshot-container h1 {
-    @apply text-xl font-medium
+    @apply text-xl font-medium flex flex-row gap-2
+}
+
+.esrb-container {
+    @apply flex flex-row gap-2 mt-4 items-center
+}
+
+.esrb-container img {
+    @apply w-14
+}
+
+.esrb-container figcaption {
+    @apply text-xs w-3/4 text-zinc-200
 }

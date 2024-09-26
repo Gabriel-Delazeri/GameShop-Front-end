@@ -10,7 +10,19 @@ export const games: Game[] = [
         cover: {url: `/game/covers/tlou2.jpg`, alt: `The Last Of Us Part II Cover`},
         originalPrice: 59.99,
         currentPrice: 29.99,
-        screenshots: []
+        screenshots: [
+            {url: `/game/screenshots/tlou2/4.webp`, alt: `The Last Of Us Part II Screenshot`},
+            {url: `/game/screenshots/tlou2/5.webp`, alt: `The Last Of Us Part II Screenshot`},
+            {url: `/game/screenshots/tlou2/1.webp`, alt: `The Last Of Us Part II Screenshot`},
+            {url: `/game/screenshots/tlou2/6.webp`, alt: `The Last Of Us Part II Screenshot`},
+            {url: `/game/screenshots/tlou2/2.webp`, alt: `The Last Of Us Part II Screenshot`},
+            {url: `/game/screenshots/tlou2/3.webp`, alt: `The Last Of Us Part II Screenshot`},
+        ],
+        esrbRating: {
+            name: `Mature`,
+            description: `Blood and Gore, Intense Violence, Nudity, Sexual Content, Strong Language, Use of Drugs`,
+            image: `/esrb/mature.png`
+        }
     },
     {
         title: "Red Dead Redemption II",
@@ -26,7 +38,12 @@ export const games: Game[] = [
             {url: `/game/screenshots/rdr2/2.jpg`, alt: `Red Dead Redemption II Screenshot`},
             {url: `/game/screenshots/rdr2/3.jpg`, alt: `Red Dead Redemption II Screenshot`},
             {url: `/game/screenshots/rdr2/4.jpg`, alt: `Red Dead Redemption II Screenshot`},
-        ]
+        ],
+        esrbRating: {
+            name: `Mature`,
+            description: `Blood and Gore, Intense Violence, Nudity, Sexual Content, Strong Language, Use of Drugs and Alcohol`,
+            image: `/esrb/mature.png`
+        }
     },
     {
         title: "Elden Ring",
@@ -37,7 +54,12 @@ export const games: Game[] = [
         cover: {url: `/game/covers/eldenring.jpg`, alt: `Elden Ring Cover`},
         originalPrice: 59.99,
         currentPrice: 49.99,
-        screenshots: []
+        screenshots: [],
+        esrbRating: {
+            name: `Mature`,
+            description: `Blood and Gore, Language, Suggestive Themes, Violence`,
+            image: `/esrb/mature.png`
+        }
     },
     {
         title: "Death Stranding 2: On the Beach",
