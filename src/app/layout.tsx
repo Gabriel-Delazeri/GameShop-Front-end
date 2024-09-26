@@ -37,7 +37,7 @@ export default function RootLayout({
             <div className={`mt-14`}>
                 {children}
             </div>
-            <a className={`px-4 pb-8 flex flex-row text-sm items-center gap-2 justify-center text-zinc-400`}
+            <a className={`mt-4 px-4 pb-8 flex flex-row text-md items-center gap-2 justify-center text-zinc-400 underline`}
                href={`https://github.com/Gabriel-Delazeri`}
                target={`_blank`}
             >
