@@ -47,7 +47,7 @@ export default function Home() {
 
                             {games.map(game => (
                                 <Link
-                                    href={`${game.slug}/guide`}
+                                    href={`${game.slug}`}
                                     className={`flex flex-col gap-2`}
                                 >
                                     <img
