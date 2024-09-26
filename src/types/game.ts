@@ -9,6 +9,7 @@ export type Game = {
     originalPrice: number;
     screenshots: GameImage[]
     esrbRating?: ESRBRating;
+    synopsis?: GameSynopsis;
 }
 
 export type GameImage = {
@@ -20,4 +21,9 @@ export type ESRBRating = {
     name: string;
     image: string;
     description: string;
+}
+
+export type GameSynopsis = {
+    title: string;
+    paragraphs: string[];
 }

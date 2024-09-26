@@ -97,3 +97,19 @@
 .esrb-container figcaption {
     @apply text-xs w-3/4 text-zinc-200
 }
+
+.synopsis-container {
+    @apply mt-4 flex flex-col gap-2
+}
+
+.synopsis-container h1 {
+    @apply text-xl font-bold uppercase
+}
+
+.synopsis-container div {
+    @apply flex flex-col gap-2
+}
+
+.synopsis-container div p {
+    @apply text-sm text-zinc-200 font-light
+}

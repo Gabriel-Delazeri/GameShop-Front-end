@@ -86,6 +86,14 @@ export default function GamePage({params}: GamePageProps) {
                             <h1><Image/>Screenshots</h1>
                             <ScreenshotCarousel game={game}/>
                         </div>
+                        <div className={`synopsis-container`}>
+                            <h1>{game.synopsis?.title}</h1>
+                            <div>
+                                {game.synopsis?.paragraphs.map((paragraph, index) => (
+                                    <p>{paragraph}</p>
+                                ))}
+                            </div>
+                        </div>
                     </div>
                 </div>
             )}
