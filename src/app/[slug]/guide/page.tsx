@@ -5,7 +5,6 @@ import {findBySlug} from "@/service/gameService";
 import "../styles.css";
 import {Image, ShoppingCart} from "lucide-react";
 import {calculateDiscount, checkGameHasDiscount} from "@/utils/price.util";
-import {Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious} from "@/components/ui/carousel";
 import ScreenshotCarousel from "@/components/screenshotCarousel";
 
 
